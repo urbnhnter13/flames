@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import fl_m_s as flm
+import flames_logic as flm
 import tkinter as tk
 def creator():
     w=tk.Tk()
