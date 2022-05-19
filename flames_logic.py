@@ -96,10 +96,10 @@ def fcalc(inpt):
         F="F......friends huh"
         return F
     if a[0]==2:
-        L="L...hmmmmmm hmmmmm"
+        L="L...ohh ohh hmm hmm"
         return L
     if a[0]==3:
-        A="A.....not bad"
+        A="A.....ok ok "
         return A
     if a[0]==4:
         M="M....ohh ohh"
@@ -120,7 +120,11 @@ def messpr(passvar):
 def printer(x0,y0):
     passvar=inptcal(x0,y0)
  #   messpr(passvar)
-    xop=fcalc(passvar)
+    if passvar==0 :
+        xop="Nothing try again!! \nEither you did not put any name or\nyour names have exactly same letters. \nGood luck"
+        passvar=0
+    else:
+        xop=fcalc(passvar)
     return (xop,passvar)
 #______________________________________________________________________________________________________________
                                                                                    #|
