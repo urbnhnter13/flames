@@ -15,7 +15,7 @@ def creator():
         nm1=yname.get()
         nm2=thname.get()
        # print(nm1,nm2)
-        (xop,yop)=flm.printer(nm1,nm2)
+        (xop,yop)=flm.printer(nm1.lower(),nm2.lower())
         yop=str(yop)
        # print(xop,yop)
         
