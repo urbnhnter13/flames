@@ -74,4 +74,3 @@ def creator():
 def emp():
     creator()
     
-emp()
