@@ -113,8 +113,8 @@ def fcalc(inpt):
 
 #_________________________________++++++++++++++++++++++++++++++++++++++++++++++____________________________________-------------------------------
 def messpr(passvar):
-    print("OK........ Lets's See the number\nIt is..........",passvar)
-    print("NOW let's see what letter u get")
+    print("Lets's See the number\nIt is..........",passvar)
+    print("NOW let's see the letter u get\n")
 
 #______________________________________++++++++++++++++++++++++++++++++++++++++++++____________________________________________-----------------------------
 def printer(x0,y0):
